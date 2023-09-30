@@ -17,3 +17,4 @@ class AppColor {
     static Color primarycolor =  const Color(0xFF07ADAE);
 
 }
+//AppColor.primarycolor

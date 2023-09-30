@@ -1,8 +1,8 @@
 import 'package:e_shop/presentation/ui/utility/app_color.dart';
 import 'package:flutter/material.dart';
 
-class CatagoryCard extends StatelessWidget {
-  const CatagoryCard({
+class CategoryCard extends StatelessWidget {
+  const CategoryCard({
     super.key,
   });
 
@@ -14,7 +14,7 @@ class CatagoryCard extends StatelessWidget {
         children: [
           Container(
             margin: const EdgeInsets.symmetric(horizontal: 8),
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
                 color: AppColor.primarycolor.withOpacity(0.1),
                 borderRadius: BorderRadius.circular(8)
